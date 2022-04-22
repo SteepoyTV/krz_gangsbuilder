@@ -1,7 +1,7 @@
 _menuPool = NativeUI.CreatePool()
 _menuPool:RefreshIndex()
 
-mainGangMenu = NativeUI.CreateMenu('GangsBuilder', 'Actions', nil, nil, nil, nil, nil, 180, 0, 0)
+mainGangMenu = NativeUI.CreateMenu('GangsBuilder', 'FIX BY Steepoy#0001 / YorkHost.Fr Team - THX KORIOZ', nil, nil, nil, nil, nil, 180, 0, 0)
 _menuPool:Add(mainGangMenu)
 
 local addGangMenu = _menuPool:AddSubMenu(mainGangMenu, 'Créer un gang', '', true, true)
